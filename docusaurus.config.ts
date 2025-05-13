@@ -532,7 +532,7 @@ const config: Config = {
       contextualSearch: true,
       replaceSearchResultPathname: {
         from: '/docs/',
-        to: process.env.DOCUSAURUS_BASE_URL || '/',
+        to: process.env.DOCUSAURUS_BASE_URL || '/docs/',
       },
     },
     tableOfContents: {
